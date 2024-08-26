@@ -1,0 +1,16 @@
+header {
+    background: linear-gradient(90deg, #faac88 0%, #f1a9eb 100%);
+}
+header nav ul li a {
+    color: rgb(248, 237, 221);
+}
+h1 {
+    color: #ffffff
+}
+header h2 {
+    color: #ffffff;
+}
+main {
+    background: linear-gradient(90deg, #faac88 0%, #f1a9eb 100%);
+}
+
