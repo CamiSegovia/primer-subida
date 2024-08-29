@@ -1,16 +1,12 @@
-@font-face {
-    font-family: "PoppinSemiBold";
-    src: url(/primer-subida/fonts/Poppins-SemiBold.ttf);
-}
-@font-face {
-    font-family: "PoppinMedium" ;
-    src: url(/primer-subida/fonts/Poppins-Medium.ttf)
-}
 h1{
-    font-family:"PoppinSemiBold" , "sans-serif";
-    font-size: 45px;
+    .acme-regular
+        font-family: "Acme", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    font-size: 50px;
     text-align: center;
 }
+
 
 header{
     background-color: #252E3F;
@@ -21,8 +17,23 @@ header{
 }
 
 .subtitulo{
-    font-family: "PoppinMedium"
+    .poppins-semibold 
+        font-family: "Poppins", sans-serif;
+        font-size: 35px;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        color: #A79F5C;
 }
+
+nav a {
+    .poppins-medium 
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        color: #d4d1d1;
+    }
 
 .lateral{
     background-color: #d4d1d1;
@@ -36,3 +47,4 @@ header{
     border-top: 2px solid #252E3F; /* Línea horizontal */  
     width: 100%;
 }
+
