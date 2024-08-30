@@ -1,43 +1,62 @@
-h1{
-    .acme-regular
+.acme-regular{
         font-family: "Acme", sans-serif;
         font-weight: 400;
         font-style: normal;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
+    color: #d4d1d1;
 }
-
 
 header{
     background-color: #252E3F;
     padding: 10px 5px;
     border-radius: 10px ;
-    color: #d4d1d1;
-    font-family: ;
 }
 
-.subtitulo{
-    .poppins-semibold 
+.poppins-semibold{
         font-family: "Poppins", sans-serif;
-        font-size: 35px;
+        font-size: 40px;
         font-weight: 600;
         font-style: normal;
         text-align: center;
         color: #A79F5C;
 }
 
-nav a {
-    .poppins-medium 
+.poppins-medium, a{
         font-family: "Poppins", sans-serif;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 500;
         font-style: normal;
-        color: #d4d1d1;
-    }
+        color: #e4e3e3d5;
+        display: flex; 
+}
+nav ul li{
+    display: inline-block
+}
+
+.botonera a{
+    text-decoration: none;
+    background-color: #6784bba8;
+    color: #d4d1d1;
+    margin-inline: 30px;
+    justify-content:space-between;
+    padding: 0px 20px;
+    border: px solid #6784bba8;
+    border-radius: 20px;
+}
+
+.botonera a:hover{ 
+    color: #252e3f;
+    background-color: #fff59a
+}
+.botonera a:active{
+    color: #fff59a;
+    background-color: #252E3F;
+}
 
 .lateral{
     background-color: #d4d1d1;
-    width: 40%;
+    width: 20%;
     padding: 5px ;
     margin: 20px 0px 20px 0px; 
     border-radius: 10px;
@@ -47,4 +66,22 @@ nav a {
     border-top: 2px solid #252E3F; /* Línea horizontal */  
     width: 100%;
 }
+
+.principal {
+    background-color: #d4d1d1 ;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px 0px 20px 0px; 
+
+}
+
+.poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color:#6784bba8;
+        color:#252E3F
+}
+
+
 
