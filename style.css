@@ -201,19 +201,18 @@ h5{
     font-size: 16px;
     background-color: #70002013;
     border-radius: 30px;
+    margin:20px;
 }
 .foto{
     display: flex;
     flex-direction: row;
-    border-radius: 20px;
     align-items: end;
     width: 25%;
     justify-content: center;
     position: relative;
-    right: 0px;
+    right: 20px;
     left: 900px;
-    bottom: 300px;
-    border-radius: 20px;
+    bottom: 400px;
 }
 .foto:hover{
     transform: scale(1.1);
@@ -230,13 +229,14 @@ h5{
     width: 1327px;
     height: 500px;
     justify-content: space-around;
+    border-radius: 20px;
 }
 .timmy:hover:hover{
     transform: scale(1.1);
     overflow: hidden;
     height: 250px;
     width: 200px;
-    border-radius: 6px;
+    border-radius: 10px;
     box-shadow: 0px 5px 5px; rgba(0,0,0,0.50);
     cursor: pointer;
 }
@@ -245,7 +245,7 @@ h5{
     overflow: hidden;
     height: 250px;
     width: 200px;
-    border-radius: 6px;
+    border-radius: 10px;
     box-shadow: 0px 5px 5px; rgba(0,0,0,0.50);
     cursor: pointer;
 }
@@ -254,16 +254,16 @@ h5{
     overflow: hidden;
     height: 250px;
     width: 200px;
-    border-radius: 6px;
+    border-radius: 10px;
     box-shadow: 0px 5px 5px; rgba(0,0,0,0.50);
     cursor: pointer;
 }
 .greta:hover{
     transform: scale(1.1);
-    overflow: hidden;
+    overflow:hidden;
     height: 250px;
     width: 200px;
-    border-radius: 6px;
+    border-radius: 10px;
     box-shadow: 0px 5px 5px; rgba(0,0,0,0.50);
     cursor: pointer;
 }
