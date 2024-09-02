@@ -1,1 +1,1 @@
-# primer-subida
+RESOLUCION DE PANTALLA: 1360x768
