@@ -1,8 +1,7 @@
 @charset "UTF-8";
 header{
-    background-color: #70002017;
+    background-color: #70005828;
     width: 100%;
-    padding: 10px ;
     border-radius: 10px;
     border: 10px;
 }
@@ -44,7 +43,6 @@ nav ul{
     padding: 10px;
     margin: 0px 30px;
     justify-content: space-around;
-
 }
 /*FIN DE NAVEGADOR*/
 body{
@@ -57,18 +55,13 @@ body{
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
+    background-image: url(/primer-subida/IMG/1x/Mesa\ de\ trabajo\ 1-100.jpg);
+    background-size: 100% auto;
+    background-position: top;
+    padding: 30px 0px;
 }
-.imagenprincipal:hover{
-    transform: scale(1.1);
-    box-shadow: 0 0 5px #099DAB;
+.imagenprincipal{
     border-radius: 30px;
-}
-.paginaprincipal{
-    background-image: url(IMG/1x/Mesa\ de\ trabajo\ 1-100.jpg);
-    background-position: center;
-    width: 100%;
-    height: 20%;
-    padding: 50px;
 }
 h1{
     font-family: "Roboto", sans-serif;
@@ -148,9 +141,10 @@ h2{
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    margin: 10px 20px;
+    margin: 10px 5px;
     height:500px;
     width: 100%;
+    box-sizing: border-box;
 }
 h3{
     font-family: "Roboto", sans-serif;
@@ -185,8 +179,9 @@ h5{
     font-style: normal;
     color: #700020;
     font-size: 90px;
+    width: 70%;
     margin: 20px;
-    width: 100%;
+    box-sizing: border-box;
 }
 #sobremi{
     width: 100%;
@@ -237,7 +232,7 @@ h5{
     height: 250px;
     width: 200px;
     border-radius: 10px;
-    box-shadow: 0px 5px 5px; rgba(0,0,0,0.50);
+    box-shadow: 0px 5px 5px; rgba(0.50);
     cursor: pointer;
 }
 .luna:hover{
@@ -255,7 +250,7 @@ h5{
     height: 250px;
     width: 200px;
     border-radius: 10px;
-    box-shadow: 0px 5px 5px; rgba(0,0,0,0.50);
+    box-shadow: 0px 5px 5px; rgba(0.50);
     cursor: pointer;
 }
 .greta:hover{
