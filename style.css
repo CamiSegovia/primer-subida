@@ -139,7 +139,6 @@ h2{
     font-size: 16px;
     margin: 10px 10px 5px 20px;
     height:400px;
-    width: 100%;
     box-sizing: border-box;
     grid-template-columns: 30px;
 }
@@ -274,7 +273,9 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    box-sizing: content-box;
     background-color: #70002028;
+    border-radius: 30px;
 }
 .iconos{
     display: flex;
