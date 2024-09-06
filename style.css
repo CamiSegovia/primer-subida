@@ -297,6 +297,7 @@ footer{
     border-radius: 20px;
     flex-wrap: wrap;
     align-content: center;
+    column-gap: 60px;
 }
 .proyectos p{
     justify-content: center;
