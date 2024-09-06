@@ -141,7 +141,7 @@ h2{
     height:400px;
     width: 100%;
     box-sizing: border-box;
-    grid-template-columns: auto;
+    grid-template-columns: 30px;
 }
 h3{
     font-family: "Roboto", sans-serif;
