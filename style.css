@@ -205,10 +205,8 @@ h5{
 }
 .imagensobremi{
     display: flex;
-    justify-content: center;
     position: relative;
-    right: 70px;
-    border-radius: 20px;
+    right: 100px;
 }
 /*FIN DE SOBRE MI*/
 .michis{
@@ -292,7 +290,6 @@ footer{
     display: flex;
     justify-content: center;
 }
-
 .proyectos{
     display: inline-flex;
     width: 100%;
@@ -303,4 +300,13 @@ footer{
 }
 .proyectos p{
     justify-content: center;
+}
+.botonflotante{
+    position:fixed;
+    border-radius: 20px;
+    background-color: #7000204f;
+    padding: 10px;
+    border: 2px solid #700020;
+    top: 150px;
+    left: 10px;
 }
