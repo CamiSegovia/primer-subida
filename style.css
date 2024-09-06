@@ -4,6 +4,7 @@ header{
     width: 100%;
     border-radius: 10px;
     border: 10px;
+    box-sizing: border-box;
 }
 nav ul li {
     display: inline;
@@ -13,9 +14,9 @@ nav ul li {
 .botonera{
     display: flex; 
     flex-direction: row; 
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 10px 20px;
-    margin: 0px 30px;
+    margin: 0px 10px;
     align-items: center;
 }
 .botonera a{
@@ -25,10 +26,10 @@ nav ul li {
     font-size: 15px;
     color: #700020;
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 10px 20px;
     border: 3px solid #7000202c;
     border-radius: 20px;
-    margin: 10px;
+    margin: 5px;
 }
 .botonera a:hover{ 
     color: #700020;
@@ -51,14 +52,13 @@ body{
 .paginaprincipal{
     display: flex;
     flex-direction: row;
-    margin: 17px 0px;
+    margin: 20px 10px 80px 20px;
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
-    background-image: url(/primer-subida/IMG/1x/Mesa\ de\ trabajo\ 1-100.jpg);
-    background-size: 100% auto;
-    background-position: top;
     padding: 30px 0px;
+    border: 2px solid #700020;
+    background-color: rgba(255, 255, 255, 0.267);
 }
 .imagenprincipal{
     border-radius: 30px;
@@ -78,7 +78,6 @@ h2{
     font-size: 30px;
     color: #700020;
     margin: 0px  10px;
-    align-items: center;
 }
 /*FIN DE LA PRIMER PAGINA*/
 .texto{
@@ -89,7 +88,7 @@ h2{
     border-radius: 30px;
     margin: 40px 10px 10px 10px;
     justify-content: center;
-    padding: 5px;
+    padding: 15px;
     align-content: center;
     background-color: rgba(255, 255, 255, 0.062);
 }
@@ -100,16 +99,16 @@ h2{
     border: 2px solid #099DAB;
     border-radius: 30px;
     margin: 20px 10px;
-    justify-content: center;
-    padding: 5px;
-    align-content: center;
-    text-align: left;
+    padding: 15px;
     background-color: rgba(255, 255, 255, 0.062);
 }
-.datos, .habilidades{
+.habilidades{
     display: inline-flex;
     flex-direction: row;
-    width: 45%;
+    justify-content: center;
+    width: 22%;
+    position: relative;
+    bottom: 200px;
     border: 2px solid #099DAB;
     border-radius: 30px;
     margin: 20px 10px;
@@ -118,33 +117,31 @@ h2{
     align-content: center;
     background-color: rgba(255, 255, 255, 0.062);
 }
-.habilidades{
-    width: 20%;
-    justify-content: center;
-    position: relative;
-    top:px;
-    right: px;
-    bottom: 220px;
-    left:20px;
-    text-decoration: none;
-}
 .datos{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 22%;
     position: relative;
-    top:px;
-    right: px;
-    bottom: 220px;
-    left:px;
-    width: 20%;
+    bottom: 200px;
+    border: 2px solid #099DAB;
+    border-radius: 30px;
+    margin: 20px 10px;
+    justify-content: center;
+    padding: 5px;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.062);
 }
 .secciones{
     font-family: "Roboto", system-ui;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    margin: 10px 5px;
-    height:500px;
+    margin: 10px 10px 5px 20px;
+    height:400px;
     width: 100%;
     box-sizing: border-box;
+    grid-template-columns: auto;
 }
 h3{
     font-family: "Roboto", sans-serif;
@@ -178,17 +175,25 @@ h5{
     font-weight: 900;
     font-style: normal;
     color: #700020;
-    font-size: 90px;
-    width: 70%;
-    margin: 20px;
-    box-sizing: border-box;
-}
-#sobremi{
+    font-size: 70px;
     width: 100%;
-    height: 500px;
+    margin: 20px 0px 50px 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#SobreMi{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10px 80px 20px;
+    align-items: flex-end;
+    border-radius: 20px;
+    padding: 30px 0px;
+}
+#SobreMi h5{
+    width: 60%;
 }
 .sobremi{
-    width: 45%;
+    width: 60%;
     padding: 20px;
     font-family: "Roboto", system-ui;
     font-weight: 400;
@@ -198,41 +203,32 @@ h5{
     border-radius: 30px;
     margin:20px;
 }
-.foto{
+.imagensobremi{
     display: flex;
-    flex-direction: row;
-    align-items: end;
-    width: 25%;
     justify-content: center;
     position: relative;
-    right: 20px;
-    left: 900px;
-    bottom: 400px;
-}
-.foto:hover{
-    transform: scale(1.1);
-    box-shadow: 0 0 5px #099DAB;
-    border-radius: 10px;
-}
-#SobreMi{
-    width: 100%;
-    height: 550px;
+    right: 70px;
+    border-radius: 20px;
 }
 /*FIN DE SOBRE MI*/
 .michis{
     display: inline-flex;
-    width: 1327px;
-    height: 500px;
+    width: 100%;
+    height: 400px;
     justify-content: space-around;
     border-radius: 20px;
 }
-.timmy:hover:hover{
+#michis h5{
+    width:100%;
+    justify-content: center;
+}
+.timmy:hover{
     transform: scale(1.1);
     overflow: hidden;
     height: 250px;
     width: 200px;
     border-radius: 10px;
-    box-shadow: 0px 5px 5px; rgba(0.50);
+    box-shadow: 0px 5px 5px;
     cursor: pointer;
 }
 .luna:hover{
@@ -241,7 +237,7 @@ h5{
     height: 250px;
     width: 200px;
     border-radius: 10px;
-    box-shadow: 0px 5px 5px; rgba(0,0,0,0.50);
+    box-shadow: 0px 5px 5px; 
     cursor: pointer;
 }
 .negrito:hover{
@@ -250,7 +246,7 @@ h5{
     height: 250px;
     width: 200px;
     border-radius: 10px;
-    box-shadow: 0px 5px 5px; rgba(0.50);
+    box-shadow: 0px 5px 5px;
     cursor: pointer;
 }
 .greta:hover{
@@ -259,7 +255,7 @@ h5{
     height: 250px;
     width: 200px;
     border-radius: 10px;
-    box-shadow: 0px 5px 5px; rgba(0,0,0,0.50);
+    box-shadow: 0px 5px 5px;
     cursor: pointer;
 }
 h6{
@@ -279,4 +275,32 @@ footer{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 100%;
+}
+.iconos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+#Contacto p{
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.proyectos{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.proyectos p{
+    justify-content: center;
 }
